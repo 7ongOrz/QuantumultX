@@ -3,7 +3,7 @@
 # 原项目地址：https://github.com/lwd-temp/anti-ip-attribution
 # 欢迎提issues或私信bot,贡献应用新的api地址
 # https://t.me/ddgksf2021
-# 更新时间：2022-10-13
+# 更新时间：2022-11-12
 ###############################################################
 
 # ======= 哔哩哔哩 ======= #
@@ -51,9 +51,6 @@ DOMAIN,mp.weixin.qq.com,IP
 DOMAIN-SUFFIX,zhihu.com,IP
 IP-CIDR,103.41.167.0/24,IP
 
-# ======= 国家反诈中心 ======= #
-DOMAIN-SUFFIX,gjfzpt.cn,REJECT 
-
 # ======= 抖音 ======= #
 # 请求域名过多，建议全局代理
 DOMAIN-KEYWORD,core-c-lq,IP
@@ -87,7 +84,6 @@ DOMAIN,api.coolapk.com,IP
 
 # ======= 豆瓣 ======= #
 # iOS客户端，目前无法可靠地处理iOS端的请求，建议全局代理
-IP-CIDR,119.29.29.98/32,REJECT
 DOMAIN,frodo.douban.com,IP
 # 网页端
 DOMAIN,www.douban.com,IP
