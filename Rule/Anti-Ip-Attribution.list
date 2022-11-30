@@ -3,7 +3,7 @@
 # 原项目地址：https://github.com/lwd-temp/anti-ip-attribution
 # 欢迎提issues或私信bot,贡献应用新的api地址
 # https://t.me/ddgksf2021
-# 更新时间：2022-11-12
+# 更新时间：2022-11-26
 ###############################################################
 
 # ======= 哔哩哔哩 ======= #
@@ -52,7 +52,7 @@ DOMAIN-SUFFIX,zhihu.com,IP
 IP-CIDR,103.41.167.0/24,IP
 
 # ======= 抖音 ======= #
-# 请求域名过多，建议全局代理
+# 需要家宽IP才可生效
 DOMAIN-KEYWORD,core-c-lq,IP
 DOMAIN-KEYWORD,core-lq,IP
 DOMAIN-KEYWORD,normal-c-lq,IP
