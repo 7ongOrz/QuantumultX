@@ -1,9 +1,9 @@
 payload:
-  - DOMAIN-SUFFIX, misakaf.org
-  - DOMAIN-SUFFIX, loseremby.org
-  - DOMAIN-SUFFIX, xmsl.org
-  - DOMAIN-SUFFIX, blueseacdn.com
-  - DOMAIN-SUFFIX, blueseamusics.com
-  - DOMAIN-SUFFIX, coemn.com
-  - DOMAIN, bsem.ddns.me
-  - DOMAIN-SUFFIX, embyplus.org
+  - DOMAIN-SUFFIX,misakaf.org
+  - DOMAIN-SUFFIX,loseremby.org
+  - DOMAIN-SUFFIX,xmsl.org
+  - DOMAIN-SUFFIX,blueseacdn.com
+  - DOMAIN-SUFFIX,blueseamusics.com
+  - DOMAIN-SUFFIX,coemn.com
+  - DOMAIN,bsem.ddns.me
+  - DOMAIN-SUFFIX,embyplus.org
