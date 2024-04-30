@@ -9,4 +9,3 @@ payload:
   - DOMAIN,bsem.ddns.me
   - DOMAIN-SUFFIX,embyplus.org
   - DOMAIN-SUFFIX,9521732.xyz
-  - IP-CIDR,89.58.18.111/32,no-resolve
