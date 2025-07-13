@@ -1,6 +1,3 @@
-[MITM]
-hostname = %APPEND% client-api-v2.oray.com
-
 [URL Rewrite]
 #向日葵 #开屏广告
 ^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_IOS_STARTUP - reject
@@ -10,3 +7,6 @@ hostname = %APPEND% client-api-v2.oray.com
 ^https:\/\/client-api-v2\.oray\.com\/materials\/SUNLOGIN_CLIENT_IOS_PROMOTION - reject
 #向日葵 #首页横幅广告
 ^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_iOS_DEVICE_FREE\? - reject
+
+[MITM]
+hostname = %APPEND% client-api-v2.oray.com
