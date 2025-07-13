@@ -1,12 +1,19 @@
-[URL Rewrite]
+#!name=向日葵去广告
+#!desc=移除开屏广告、首页文字广告、发现页广告、首页横幅广告
+
+[Map Local]
 #向日葵 #开屏广告
-^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_IOS_STARTUP - reject
+^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_IOS_STARTUP data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
 #向日葵 #首页文字广告
-^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_IOS_DEVICE - reject
+^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_IOS_DEVICE data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
 #向日葵 #发现页广告
-^https:\/\/client-api-v2\.oray\.com\/materials\/SUNLOGIN_CLIENT_IOS_PROMOTION - reject
+^https:\/\/client-api-v2\.oray\.com\/materials\/SUNLOGIN_CLIENT_IOS_PROMOTION data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
 #向日葵 #首页横幅广告
-^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_iOS_DEVICE_FREE\? - reject
+^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_iOS_DEVICE_FREE\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [MITM]
 hostname = %APPEND% client-api-v2.oray.com
+
